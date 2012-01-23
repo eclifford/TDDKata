@@ -1,0 +1,40 @@
+body {
+	background-color: #000;
+	color: #FFF;	
+}
+
+.red {
+	background-color: red;
+}
+
+.hidden {
+	display: none;
+}
+
+.encyclopedia {
+	
+}
+
+form {
+	background-color: #333;
+	padding: 10px;
+}
+
+form label {
+	font-weight: bold;
+}
+
+form input {
+	display: block;
+}
+
+ul.encyclopedia {
+	list-style-type: none;
+}
+
+ul.encyclopedia li {
+	background-color: #333;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+

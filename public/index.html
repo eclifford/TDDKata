@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<header>
+	<title>Spreecast Kata</title>
+	<link rel="stylesheet" href="stylesheets/styles.css">
+</header>
+<body>
+	<h1>Add Book</h1>
+	<div id="bookForm"></div>
+
+	<h1>Encyclopedia's</h1>
+	<ul class='encyclopedia'></ul>
+
+	<script src="javascripts/app.js"></script>
+	<script src="javascripts/lib/jquery-1.7.1.js"></script>
+	<script src="javascripts/lib/underscore-1.3.0.js"></script>
+	<script src="javascripts/lib/backbone-0.5.3.js"></script>
+	<script src="javascripts/models/book.js"></script>
+	<script src="javascripts/models/encylopedia.js"></script>
+	<script src="javascripts/views/formview.js"></script>
+	<script src="javascripts/views/encylopedialistview.js"></script>
+	<script src="javascripts/views/encylopediaview.js"></script>
+	<script src="javascripts/collections/BooksCollection.js"></script>
+	<script src="javascripts/collections/EncyclopediaCollection.js"></script>
+	<script src="javascripts/routers/AppRouter.js"></script>
+	<script>
+		$(function() {
+		var router = new App.Routes.AppRouter();
+		Backbone.history.start();
+		});
+	</script>
+</body>
+</html>
