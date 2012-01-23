@@ -2,6 +2,6 @@
 
 
 # Installation
-bundle install
-rake jasmine
-navigate to http://localhost:8888
+		bundle install
+		rake jasmine
+		navigate to http://localhost:8888
